@@ -27,6 +27,8 @@ export interface Goal {
   accountId: string
   transactionIds: string[]
   tagIds: string[]
+  // Optional: emoji string (e.g. "🎯") to display on goal cards
+  icon?: string
 }
 
 export interface Tag {
